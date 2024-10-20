@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.5.2">
 <title data-rh="true">Editor | UnrealCSharp</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://unrealcsharp.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://unrealcsharp.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://unrealcsharp.github.io/docs/document/guides/configuration/editor"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Editor | UnrealCSharp"><meta data-rh="true" name="description" content="Editor配置参数"><meta data-rh="true" property="og:description" content="Editor配置参数"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://unrealcsharp.github.io/docs/document/guides/configuration/editor"><link data-rh="true" rel="alternate" href="https://unrealcsharp.github.io/docs/document/guides/configuration/editor" hreflang="en"><link data-rh="true" rel="alternate" href="https://unrealcsharp.github.io/docs/document/guides/configuration/editor" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.5cee2dba.css">
-<script src="/assets/js/runtime~main.7cec660f.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.9ce1a7da.js" defer="defer"></script>
 <script src="/assets/js/main.7daa962b.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -21,6 +21,7 @@
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="generator">Generator<a href="#generator" class="hash-link" aria-label="Direct link to Generator" title="Direct link to Generator">​</a></h3>
 <ul>
 <li>ScriptDirectory，脚本目录，默认为Script</li>
+<li>bEnableDeleteProxyDirectory，是否删除Proxy目录，默认关闭</li>
 <li>bEnableCompiled，是否开启编译，默认开启</li>
 <li>bEnableAssetChanged，是否开启监听资源变更，默认开启</li>
 <li>bEnableDirectoryChanged，是否开启监听C#文件变更，默认开启</li>
@@ -45,7 +46,7 @@
 </li>
 </ul>
 </li>
-<li>bIsGenerateAsset，是否生成资源类型，默认开启，当确认不需要生成资源类型 时，可关闭，用于加快生成速度</li>
+<li>bIsGenerateAsset， 是否生成资源类型，默认开启，当确认不需要生成资源类型时，可关闭，用于加快生成速度</li>
 <li>SupportedAssetPath，需要对资源生成C#代码的模块或者插件<!-- -->
 <ul>
 <li>默认添加<code>项目</code></li>
