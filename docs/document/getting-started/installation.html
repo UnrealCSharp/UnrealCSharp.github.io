@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.6.3">
 <title data-rh="true">安装流程 | UnrealCSharp</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://unrealcsharp.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://unrealcsharp.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://unrealcsharp.github.io/docs/document/getting-started/installation"><meta data-rh="true" property="og:locale" content="zh_Hans"><meta data-rh="true" name="docusaurus_locale" content="zh-Hans"><meta data-rh="true" name="docsearch:language" content="zh-Hans"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="安装流程 | UnrealCSharp"><meta data-rh="true" name="description" content="如何从零开始生成一个C#工程"><meta data-rh="true" property="og:description" content="如何从零开始生成一个C#工程"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://unrealcsharp.github.io/docs/document/getting-started/installation"><link data-rh="true" rel="alternate" href="https://unrealcsharp.github.io/docs/document/getting-started/installation" hreflang="zh-Hans"><link data-rh="true" rel="alternate" href="https://unrealcsharp.github.io/docs/document/getting-started/installation" hreflang="x-default"><link data-rh="true" rel="preconnect" href="https://8NTM3K2LS3-dsn.algolia.net" crossorigin="anonymous"><link rel="search" type="application/opensearchdescription+xml" title="UnrealCSharp" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.16475b2e.css">
-<script src="/assets/js/runtime~main.71c89a6e.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.98b38db7.js" defer="defer"></script>
 <script src="/assets/js/main.b5947fcf.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -27,17 +27,13 @@
 </ul>
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="安装插件">安装插件<a href="#安装插件" class="hash-link" aria-label="安装插件的直接链接" title="安装插件的直接链接">​</a></h2>
-<div class="tabs-container tabList__CuJ"><ul role="tablist" aria-orientation="horizontal" class="tabs"><li role="tab" tabindex="0" aria-selected="true" class="tabs__item tabItem_LNqP tabs__item--active">子模块（推荐）</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_LNqP">源码</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_LNqP">发布包</li></ul><div class="margin-top--md"><div role="tabpanel" class="tabItem_Ymn6"><ol>
-<li><a href="https://git-scm.com/docs/git-submodule" target="_blank" rel="noopener noreferrer">git-submodule</a></li>
-<li>初始化<a href="https://github.com/crazytuzi/Mono" target="_blank" rel="noopener noreferrer">Mono</a></li>
-</ol></div><div role="tabpanel" class="tabItem_Ymn6" hidden=""><ol>
-<li><code>git clone https://github.com/crazytuzi/UnrealCSharp</code></li>
+<div class="tabs-container tabList__CuJ"><ul role="tablist" aria-orientation="horizontal" class="tabs"><li role="tab" tabindex="0" aria-selected="true" class="tabs__item tabItem_LNqP tabs__item--active">源码（推荐）</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_LNqP">发布包</li></ul><div class="margin-top--md"><div role="tabpanel" class="tabItem_Ymn6"><ol>
+<li><code>git clone --recurse-submodule https://github.com/crazytuzi/UnrealCSharp</code></li>
 <li>拷贝到<code>项目</code>的<code>Plugins</code>目录</li>
-<li>初始化<a href="https://github.com/crazytuzi/Mono" target="_blank" rel="noopener noreferrer">Mono</a></li>
 </ol></div><div role="tabpanel" class="tabItem_Ymn6" hidden=""><ol>
 <li>通过<a href="https://github.com/crazytuzi/UnrealCSharp/releases" target="_blank" rel="noopener noreferrer">releases</a>下载需要的版本</li>
+<li>下载<a href="https://github.com/crazytuzi/Mono" target="_blank" rel="noopener noreferrer">Mono</a>和<a href="https://github.com/crazytuzi/SourceCodeGenerator" target="_blank" rel="noopener noreferrer">SourceCodeGenerator</a>，放到对应目录</li>
 <li>拷贝到<code>项目</code>的<code>Plugins</code>目录</li>
-<li>初始化<a href="https://github.com/crazytuzi/Mono" target="_blank" rel="noopener noreferrer">Mono</a></li>
 </ol></div></div></div>
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="生成c工程">生成C#工程<a href="#生成c工程" class="hash-link" aria-label="生成C#工程的直接链接" title="生成C#工程的直接链接">​</a></h2>
