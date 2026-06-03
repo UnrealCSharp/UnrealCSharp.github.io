@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkunreal_c_sharp=self.webpackChunkunreal_c_sharp||[]).push([["9134"],{6536(e){e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"2026\u5E74","slug":"update/2026","permalink":"/docs/update/2026","sidebar":"updateSidebar","navigation":{"next":{"title":"06\u6708","permalink":"/docs/update/2026/6"}}}}')}}]);
